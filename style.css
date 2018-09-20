@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+.clearfix::after 
+{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #ebebeb;
+  background-color:#777;
+  font-size: 18px;
+  
+
+}
+
+#header 
+{
+  background: #ebebeb;
+  color: black;
+  font-size: 18px;
+  width: 80%;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  top: 5px;
+  left: 120px;
+  
+}
+
+#nav
+{
+  background: #ebebeb;
+  color: black;
+  font-size: 18px;
+  width: 80%;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 120px;
+}
+
+#wrapper  {
+
+  margin: 0, auto;
+  width: 50%;
+  
+} 
+
+#section-full { 
+
+  background: #ebebeb; 
+  color: #777;
+  width: 45%;
+  height: 300px;
+  clear: both;
+  float: left;
+  position: absolute;
+  left: 125px;
+  top: 210pX;
+  text-align: center;
+  padding-top: 25px;
+  
+}
+
+#article
+{
+  color: #ebebeb;
+  background: #777;
+  width: 95%;
+  overflow: auto;
+  clear: both;
+  position: absolute;
+  left: 20px;
+  top:100px;
+  padding-left: 30px;
+ 
+}
+
+h2 
+{
+  color: #777;
+  background: #ebebeb;
+  width: 95%;
+  padding:10px;
+  overflow: auto;
+  clear: both;
+  
+
+}
+  
+h3
+{
+  color: #777;
+  background: #ebebeb;
+  width: 95%;
+  padding: 10px;
+  overflow: auto;
+  clear: both;
+  margin-bottom:20px;
+}
+
+#aside {
+
+background: #ebebeb; 
+color: #777;
+width: 34%;
+clear: both;
+overflow: auto;
+height: 300px;
+float: left;
+padding: 25px 100px 100px;
+margin: 40px;
+position: relative;
+left: 780px;
+
+}
+ 
+Footer 
+{
+  background: #ebebeb;
+  color: #777;
+  padding: 20 px;
+  text-align: center;
+  width: 80%;
+  padding: 30px;
+  position: fixed;
+  bottom: 110px;
+  left: 120px;
+
+
+
+
+
+
+The widths of each section should be:
+
+
+section: 495px
